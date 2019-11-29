@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01560109239123FE0097195E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01560108239123FE0097195E /* AppDelegate.m */; };
+		0156010C239123FE0097195E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156010B239123FE0097195E /* SceneDelegate.m */; };
+		0156010F239123FE0097195E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156010E239123FE0097195E /* ViewController.m */; };
+		01560112239123FE0097195E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01560110239123FE0097195E /* Main.storyboard */; };
+		01560114239124000097195E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01560113239124000097195E /* Assets.xcassets */; };
+		01560117239124000097195E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01560115239124000097195E /* LaunchScreen.storyboard */; };
+		0156011A239124000097195E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01560119239124000097195E /* main.m */; };
+		01560124239124000097195E /* LoriNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01560123239124000097195E /* LoriNetTests.m */; };
+		0156012F239124000097195E /* LoriNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0156012E239124000097195E /* LoriNetUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01560120239124000097195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015600FC239123FE0097195E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01560103239123FE0097195E;
+			remoteInfo = LoriNet;
+		};
+		0156012B239124000097195E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 015600FC239123FE0097195E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01560103239123FE0097195E;
+			remoteInfo = LoriNet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01560104239123FE0097195E /* LoriNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoriNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01560107239123FE0097195E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01560108239123FE0097195E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0156010A239123FE0097195E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0156010B239123FE0097195E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0156010D239123FE0097195E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0156010E239123FE0097195E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01560111239123FE0097195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		01560113239124000097195E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		01560116239124000097195E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01560118239124000097195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01560119239124000097195E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0156011F239124000097195E /* LoriNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoriNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01560123239124000097195E /* LoriNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoriNetTests.m; sourceTree = "<group>"; };
+		01560125239124000097195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0156012A239124000097195E /* LoriNetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoriNetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0156012E239124000097195E /* LoriNetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoriNetUITests.m; sourceTree = "<group>"; };
+		01560130239124000097195E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01560101239123FE0097195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156011C239124000097195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01560127239124000097195E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		015600FB239123FE0097195E = {
+			isa = PBXGroup;
+			children = (
+				01560106239123FE0097195E /* LoriNet */,
+				01560122239124000097195E /* LoriNetTests */,
+				0156012D239124000097195E /* LoriNetUITests */,
+				01560105239123FE0097195E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01560105239123FE0097195E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01560104239123FE0097195E /* LoriNet.app */,
+				0156011F239124000097195E /* LoriNetTests.xctest */,
+				0156012A239124000097195E /* LoriNetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01560106239123FE0097195E /* LoriNet */ = {
+			isa = PBXGroup;
+			children = (
+				01560107239123FE0097195E /* AppDelegate.h */,
+				01560108239123FE0097195E /* AppDelegate.m */,
+				0156010A239123FE0097195E /* SceneDelegate.h */,
+				0156010B239123FE0097195E /* SceneDelegate.m */,
+				0156010D239123FE0097195E /* ViewController.h */,
+				0156010E239123FE0097195E /* ViewController.m */,
+				01560110239123FE0097195E /* Main.storyboard */,
+				01560113239124000097195E /* Assets.xcassets */,
+				01560115239124000097195E /* LaunchScreen.storyboard */,
+				01560118239124000097195E /* Info.plist */,
+				01560119239124000097195E /* main.m */,
+			);
+			path = LoriNet;
+			sourceTree = "<group>";
+		};
+		01560122239124000097195E /* LoriNetTests */ = {
+			isa = PBXGroup;
+			children = (
+				01560123239124000097195E /* LoriNetTests.m */,
+				01560125239124000097195E /* Info.plist */,
+			);
+			path = LoriNetTests;
+			sourceTree = "<group>";
+		};
+		0156012D239124000097195E /* LoriNetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0156012E239124000097195E /* LoriNetUITests.m */,
+				01560130239124000097195E /* Info.plist */,
+			);
+			path = LoriNetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01560103239123FE0097195E /* LoriNet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01560133239124000097195E /* Build configuration list for PBXNativeTarget "LoriNet" */;
+			buildPhases = (
+				01560100239123FE0097195E /* Sources */,
+				01560101239123FE0097195E /* Frameworks */,
+				01560102239123FE0097195E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoriNet;
+			productName = LoriNet;
+			productReference = 01560104239123FE0097195E /* LoriNet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0156011E239124000097195E /* LoriNetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01560136239124000097195E /* Build configuration list for PBXNativeTarget "LoriNetTests" */;
+			buildPhases = (
+				0156011B239124000097195E /* Sources */,
+				0156011C239124000097195E /* Frameworks */,
+				0156011D239124000097195E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01560121239124000097195E /* PBXTargetDependency */,
+			);
+			name = LoriNetTests;
+			productName = LoriNetTests;
+			productReference = 0156011F239124000097195E /* LoriNetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		01560129239124000097195E /* LoriNetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01560139239124000097195E /* Build configuration list for PBXNativeTarget "LoriNetUITests" */;
+			buildPhases = (
+				01560126239124000097195E /* Sources */,
+				01560127239124000097195E /* Frameworks */,
+				01560128239124000097195E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0156012C239124000097195E /* PBXTargetDependency */,
+			);
+			name = LoriNetUITests;
+			productName = LoriNetUITests;
+			productReference = 0156012A239124000097195E /* LoriNetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		015600FC239123FE0097195E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = ciefky;
+				TargetAttributes = {
+					01560103239123FE0097195E = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					0156011E239124000097195E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 01560103239123FE0097195E;
+					};
+					01560129239124000097195E = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 01560103239123FE0097195E;
+					};
+				};
+			};
+			buildConfigurationList = 015600FF239123FE0097195E /* Build configuration list for PBXProject "LoriNet" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 015600FB239123FE0097195E;
+			productRefGroup = 01560105239123FE0097195E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01560103239123FE0097195E /* LoriNet */,
+				0156011E239124000097195E /* LoriNetTests */,
+				01560129239124000097195E /* LoriNetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01560102239123FE0097195E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01560117239124000097195E /* LaunchScreen.storyboard in Resources */,
+				01560114239124000097195E /* Assets.xcassets in Resources */,
+				01560112239123FE0097195E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156011D239124000097195E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01560128239124000097195E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01560100239123FE0097195E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156010F239123FE0097195E /* ViewController.m in Sources */,
+				01560109239123FE0097195E /* AppDelegate.m in Sources */,
+				0156011A239124000097195E /* main.m in Sources */,
+				0156010C239123FE0097195E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0156011B239124000097195E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01560124239124000097195E /* LoriNetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01560126239124000097195E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0156012F239124000097195E /* LoriNetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01560121239124000097195E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01560103239123FE0097195E /* LoriNet */;
+			targetProxy = 01560120239124000097195E /* PBXContainerItemProxy */;
+		};
+		0156012C239124000097195E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01560103239123FE0097195E /* LoriNet */;
+			targetProxy = 0156012B239124000097195E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01560110239123FE0097195E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01560111239123FE0097195E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		01560115239124000097195E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01560116239124000097195E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01560131239124000097195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01560132239124000097195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01560134239124000097195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		01560135239124000097195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		01560137239124000097195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoriNet.app/LoriNet";
+			};
+			name = Debug;
+		};
+		01560138239124000097195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoriNet.app/LoriNet";
+			};
+			name = Release;
+		};
+		0156013A239124000097195E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoriNet;
+			};
+			name = Debug;
+		};
+		0156013B239124000097195E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LoriNetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youxinjinrong.LoriNetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoriNet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		015600FF239123FE0097195E /* Build configuration list for PBXProject "LoriNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01560131239124000097195E /* Debug */,
+				01560132239124000097195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01560133239124000097195E /* Build configuration list for PBXNativeTarget "LoriNet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01560134239124000097195E /* Debug */,
+				01560135239124000097195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01560136239124000097195E /* Build configuration list for PBXNativeTarget "LoriNetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01560137239124000097195E /* Debug */,
+				01560138239124000097195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01560139239124000097195E /* Build configuration list for PBXNativeTarget "LoriNetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0156013A239124000097195E /* Debug */,
+				0156013B239124000097195E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 015600FC239123FE0097195E /* Project object */;
+}
